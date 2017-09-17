@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: dc44311a24306244b9225c3ff1bff805
+timeCreated: 1504048135
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Babblebox_SpriteSheet_RunCycle_0
+    21300002: Babblebox_SpriteSheet_RunCycle_1
+    21300004: Babblebox_SpriteSheet_RunCycle_2
+    21300006: Babblebox_SpriteSheet_RunCycle_3
+    21300008: Babblebox_SpriteSheet_RunCycle_4
+    21300010: Babblebox_SpriteSheet_RunCycle_5
+    21300012: Babblebox_SpriteSheet_RunCycle_6
+    21300014: Babblebox_SpriteSheet_RunCycle_7
+    21300016: Babblebox_SpriteSheet_RunCycle_8
+    21300018: Babblebox_SpriteSheet_RunCycle_9
+    21300020: Babblebox_SpriteSheet_RunCycle_10
+    21300022: Babblebox_SpriteSheet_RunCycle_11
+    21300024: Babblebox_SpriteSheet_RunCycle_12
+    21300026: Babblebox_SpriteSheet_RunCycle_13
+    21300028: Babblebox_SpriteSheet_RunCycle_14
+    21300030: Babblebox_SpriteSheet_RunCycle_15
+    21300032: Babblebox_SpriteSheet_RunCycle_16
+    21300034: Babblebox_SpriteSheet_RunCycle_17
+    21300036: Babblebox_SpriteSheet_RunCycle_18
+    21300038: Babblebox_SpriteSheet_RunCycle_19
+    21300040: Babblebox_SpriteSheet_RunCycle_20
+    21300042: Babblebox_SpriteSheet_RunCycle_21
+    21300044: Babblebox_SpriteSheet_RunCycle_22
+    21300046: Babblebox_SpriteSheet_RunCycle_23
+    21300048: Babblebox_SpriteSheet_RunCycle_24
+    21300050: Babblebox_SpriteSheet_RunCycle_25
+    21300052: Babblebox_SpriteSheet_RunCycle_26
+    21300054: Babblebox_SpriteSheet_RunCycle_27
+    21300056: Babblebox_SpriteSheet_RunCycle_28
+    21300058: Babblebox_SpriteSheet_RunCycle_29
+    21300060: Babblebox_SpriteSheet_RunCycle_30
+    21300062: Babblebox_SpriteSheet_RunCycle_31
+    21300064: Babblebox_SpriteSheet_RunCycle_32
+    21300066: Babblebox_SpriteSheet_RunCycle_33
+    21300068: Babblebox_SpriteSheet_RunCycle_34
+    21300070: Babblebox_SpriteSheet_RunCycle_35
+    21300072: Babblebox_SpriteSheet_RunCycle_36
+    21300074: Babblebox_SpriteSheet_RunCycle_37
+    21300076: Babblebox_SpriteSheet_RunCycle_38
+    21300078: Babblebox_SpriteSheet_RunCycle_39
+    21300080: Babblebox_SpriteSheet_RunCycle_40
+    21300082: Babblebox_SpriteSheet_RunCycle_41
+    21300084: Babblebox_SpriteSheet_RunCycle_42
+    21300086: Babblebox_SpriteSheet_RunCycle_43
+    21300088: Babblebox_SpriteSheet_RunCycle_44
+    21300090: Babblebox_SpriteSheet_RunCycle_45
+    21300092: Babblebox_SpriteSheet_RunCycle_46
+    21300094: Babblebox_SpriteSheet_RunCycle_47
+    21300096: Babblebox_SpriteSheet_RunCycle_48
+    21300098: Babblebox_SpriteSheet_RunCycle_49
+    21300100: Babblebox_SpriteSheet_RunCycle_50
+    21300102: Babblebox_SpriteSheet_RunCycle_51
+    21300104: Babblebox_SpriteSheet_RunCycle_52
+    21300106: Babblebox_SpriteSheet_RunCycle_53
+    21300108: Babblebox_SpriteSheet_RunCycle_54
+    21300110: Babblebox_SpriteSheet_RunCycle_55
+    21300112: Babblebox_SpriteSheet_RunCycle_56
+    21300114: Babblebox_SpriteSheet_RunCycle_57
+    21300116: Babblebox_SpriteSheet_RunCycle_58
+    21300118: Babblebox_SpriteSheet_RunCycle_59
+    21300120: Babblebox_SpriteSheet_RunCycle_60
+    21300122: Babblebox_SpriteSheet_RunCycle_61
+    21300124: Babblebox_SpriteSheet_RunCycle_62
+    21300126: Babblebox_SpriteSheet_RunCycle_63
+    21300128: Babblebox_SpriteSheet_RunCycle_64
+    21300130: Babblebox_SpriteSheet_RunCycle_65
+    21300132: Babblebox_SpriteSheet_RunCycle_66
+    21300134: Babblebox_SpriteSheet_RunCycle_67
+    21300136: Babblebox_SpriteSheet_RunCycle_68
+    21300138: Babblebox_SpriteSheet_RunCycle_69
+    21300140: Babblebox_SpriteSheet_RunCycle_70
+    21300142: Babblebox_SpriteSheet_RunCycle_71
+    21300144: Babblebox_SpriteSheet_RunCycle_72
+    21300146: Babblebox_SpriteSheet_RunCycle_73
+    21300148: Babblebox_SpriteSheet_RunCycle_74
+    21300150: Babblebox_SpriteSheet_RunCycle_75
+    21300152: Babblebox_SpriteSheet_RunCycle_76
+    21300154: Babblebox_SpriteSheet_RunCycle_77
+    21300156: Babblebox_SpriteSheet_RunCycle_78
+    21300158: Babblebox_SpriteSheet_RunCycle_79
+    21300160: Babblebox_SpriteSheet_RunCycle_80
+    21300162: Babblebox_SpriteSheet_RunCycle_81
+    21300164: Babblebox_SpriteSheet_RunCycle_82
+    21300166: Babblebox_SpriteSheet_RunCycle_83
+    21300168: Babblebox_SpriteSheet_RunCycle_84
+    21300170: Babblebox_SpriteSheet_RunCycle_85
+    21300172: Babblebox_SpriteSheet_RunCycle_86
+    21300174: Babblebox_SpriteSheet_RunCycle_87
+    21300176: Babblebox_SpriteSheet_RunCycle_88
+    21300178: Babblebox_SpriteSheet_RunCycle_89
+    21300180: Babblebox_SpriteSheet_RunCycle_90
+    21300182: Babblebox_SpriteSheet_RunCycle_91
+    21300184: Babblebox_SpriteSheet_RunCycle_92
+    21300186: Babblebox_SpriteSheet_RunCycle_93
+    21300188: Babblebox_SpriteSheet_RunCycle_94
+    21300190: Babblebox_SpriteSheet_RunCycle_95
+    21300192: Babblebox_SpriteSheet_RunCycle_96
+    21300194: Babblebox_SpriteSheet_RunCycle_97
+    21300196: Babblebox_SpriteSheet_RunCycle_98
+    21300198: Babblebox_SpriteSheet_RunCycle_99
+    21300200: Babblebox_SpriteSheet_RunCycle_100
+    21300202: Babblebox_SpriteSheet_RunCycle_101
+    21300204: Babblebox_SpriteSheet_RunCycle_102
+    21300206: Babblebox_SpriteSheet_RunCycle_103
+    21300208: Babblebox_SpriteSheet_RunCycle_104
+    21300210: Babblebox_SpriteSheet_RunCycle_105
+    21300212: Babblebox_SpriteSheet_RunCycle_106
+    21300214: Babblebox_SpriteSheet_RunCycle_107
+    21300216: Babblebox_SpriteSheet_RunCycle_108
+    21300218: Babblebox_SpriteSheet_RunCycle_109
+    21300220: Babblebox_SpriteSheet_RunCycle_110
+    21300222: Babblebox_SpriteSheet_RunCycle_111
+    21300224: Babblebox_SpriteSheet_RunCycle_112
+    21300226: Babblebox_SpriteSheet_RunCycle_113
+    21300228: Babblebox_SpriteSheet_RunCycle_114
+    21300230: Babblebox_SpriteSheet_RunCycle_115
+    21300232: Babblebox_SpriteSheet_RunCycle_116
+    21300234: Babblebox_SpriteSheet_RunCycle_117
+    21300236: Babblebox_SpriteSheet_RunCycle_118
+    21300238: Babblebox_SpriteSheet_RunCycle_119
+    21300240: Babblebox_SpriteSheet_RunCycle_120
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Babblebox_SpriteSheet_RunCycle_0
+      rect:
+        serializedVersion: 2
+        x: 4701
+        y: 5581
+        width: 669
+        height: 1101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Babblebox_SpriteSheet_RunCycle_1
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 5598
+        width: 660
+        height: 1070
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Babblebox_SpriteSheet_RunCycle_2
+      rect:
+        serializedVersion: 2
+        x: 7998
+        y: 5560
+        width: 694
+        height: 1139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Babblebox_SpriteSheet_RunCycle_3
+      rect:
+        serializedVersion: 2
+        x: 11265
+        y: 5599
+        width: 709
+        height: 1099
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Babblebox_SpriteSheet_RunCycle_4
+      rect:
+        serializedVersion: 2
+        x: 11283
+        y: 3725
+        width: 685
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Babblebox_SpriteSheet_RunCycle_5
+      rect:
+        serializedVersion: 2
+        x: 7998
+        y: 3714
+        width: 691
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Babblebox_SpriteSheet_RunCycle_6
+      rect:
+        serializedVersion: 2
+        x: 4652
+        y: 3707
+        width: 721
+        height: 1126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Babblebox_SpriteSheet_RunCycle_7
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 3708
+        width: 740
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
