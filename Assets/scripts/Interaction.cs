@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEditorInternal;
-using UnityEngine.UI;
+#endif
+
 
 public enum InType
 {
@@ -149,7 +152,7 @@ public class Interaction : MonoBehaviour {
         if(GM.instance.collectedObjects.Count == 6)
         {
             vocabWindow.SetActive(true);
-            GM.instance.playerLocked = true;
+            
             denyBubble.SetActive(false);
         }else
         {
@@ -162,7 +165,7 @@ public class Interaction : MonoBehaviour {
 
 
 
-
+#if UNITY_EDITOR
 [CustomEditor(typeof(Interaction))]
 public class Interaction_editor : Editor
 {
@@ -204,7 +207,7 @@ public class Interaction_editor : Editor
         }
     }
 }
-
+#endif
 
 
 

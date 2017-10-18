@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+
 
 
 public class tapScript : MonoBehaviour {
@@ -15,7 +15,8 @@ public class tapScript : MonoBehaviour {
                            
     void Start () {
         //initialize position
-        transform.position = new Vector3(target.x, floor.transform.position.y + yBuffer, 1);
+        transform.position = new Vector3(10, floor.transform.position.y + yBuffer, 1);
+        target = transform.position;
    
     }
 	
@@ -31,10 +32,15 @@ public class tapScript : MonoBehaviour {
         if(target != transform.position && !GM.instance.playerLocked){                
             target = new Vector3(target.x, floor.transform.position.y + yBuffer, 1);
             transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+            this.GetComponent<Animator>().Play("playerRun");
         }else if (GM.instance.playerLocked)
         {
             target = transform.position;
-
+            this.GetComponent<Animator>().Play("playerIdle");
+        }
+        else
+        {
+            this.GetComponent<Animator>().Play("playerIdle");
         }
 
 	}
@@ -59,9 +65,10 @@ public class tapScript : MonoBehaviour {
         }
         if(collision.transform.name == "dem_Trigger")
         {
-            Debug.Log(collision.transform.parent.gameObject.name);
+            collision.transform.parent.gameObject.GetComponent<SpriteRenderer>().color = new Color(1,1,1,1);
             Animator anim = collision.transform.parent.gameObject.GetComponent<Animator>();
-            anim.Play("demAppear");           
+            GM.instance.playerLocked = true;
+            anim.Play("dex0");           
         }
     }
 
