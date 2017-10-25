@@ -161,6 +161,16 @@ public class Interaction : MonoBehaviour {
 
     }
 
+    public void StopAnim(float t)
+    {
+        this.gameObject.GetComponent<Animator>().Play(0);
+        StartCoroutine(TimerRun(t));        
+    }
+
+    IEnumerator TimerRun(float t)
+    {
+        yield return new WaitForSeconds(t);
+    }
 }
 
 
