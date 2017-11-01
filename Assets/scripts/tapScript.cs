@@ -65,7 +65,7 @@ public class tapScript : MonoBehaviour {
         }
         if(collision.transform.name == "dem_Trigger")
         {
-            collision.transform.parent.gameObject.GetComponent<SpriteRenderer>().color = new Color(1,1,1,1);
+            collision.transform.parent.gameObject.GetComponent<SpriteRenderer>().enabled = true;         
             Animator anim = collision.transform.parent.gameObject.GetComponent<Animator>();
             GM.instance.playerLocked = true;
             anim.Play("dex0");           

@@ -150,9 +150,8 @@ public class Interaction : MonoBehaviour {
     public void WindowOn()
     {
         if(GM.instance.collectedObjects.Count == 6)
-        {
-            vocabWindow.SetActive(true);
-            
+        {           
+            vocabWindow.SetActive(true);            
             denyBubble.SetActive(false);
         }else
         {
@@ -163,6 +162,7 @@ public class Interaction : MonoBehaviour {
 
     public void StopAnim(float t)
     {
+        Debug.Log(t);
         this.gameObject.GetComponent<Animator>().Play(0);
         StartCoroutine(TimerRun(t));        
     }

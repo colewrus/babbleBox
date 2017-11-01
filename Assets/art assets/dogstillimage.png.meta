@@ -1,9 +1,10 @@
 fileFormatVersion: 2
 guid: 36c81917144ac824f9c15b5a3db76647
-timeCreated: 1508906080
+timeCreated: 1509410910
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: dogstillimage_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,11 +41,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5553553, y: 0.6453255}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
@@ -76,8 +77,72 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: dogstillimage_0
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1206
+        width: 306
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: 239.99998, y: 570}
+      - {x: 151.87498, y: 570}
+      - {x: 91.87499, y: 521.25}
+      - {x: 91.87499, y: 449.99997}
+      - {x: 125.62499, y: 427.49997}
+      - {x: 123.74999, y: 365.62497}
+      - {x: 103.12499, y: 159.37498}
+      - {x: 116.24999, y: 148.12498}
+      - {x: 155.62498, y: 149.99998}
+      - {x: 153.74998, y: 123.74999}
+      - {x: 307.49997, y: 123.74999}
+      - {x: 403.12497, y: 251.24998}
+      - {x: 403.12497, y: 453.74997}
+      - {x: 262.5, y: 564.375}
+    - - {x: 232.49998, y: 146.25}
+      - {x: 226.87498, y: 140.625}
+      - {x: 228.74998, y: 135}
+      - {x: 236.24998, y: 135}
+      - {x: 239.99998, y: 138.75}
+      - {x: 239.99998, y: 142.5}
+      - {x: 236.24998, y: 146.25}
+    - - {x: 273.75, y: 153.74998}
+      - {x: 270, y: 149.99998}
+      - {x: 270, y: 146.25}
+      - {x: 273.75, y: 142.5}
+      - {x: 277.5, y: 142.5}
+      - {x: 281.25, y: 146.25}
+      - {x: 281.25, y: 149.99998}
+      - {x: 277.5, y: 153.74998}
+    - - {x: 108.74999, y: 307.49997}
+      - {x: 106.87499, y: 303.74997}
+      - {x: 106.87499, y: 290.625}
+      - {x: 114.37499, y: 290.625}
+      - {x: 119.99999, y: 292.5}
+      - {x: 119.99999, y: 301.87497}
+      - {x: 114.37499, y: 307.49997}
+    - - {x: 403.12497, y: 367.49997}
+      - {x: 403.12497, y: 363.74997}
+      - {x: 408.74997, y: 358.12497}
+      - {x: 414.37497, y: 359.99997}
+      - {x: 414.37497, y: 367.49997}
+      - {x: 410.62497, y: 371.24997}
+      - {x: 406.87497, y: 371.24997}
+    - - {x: 384.37497, y: 380.62497}
+      - {x: 384.37497, y: 378.74997}
+      - {x: 389.99997, y: 373.12497}
+      - {x: 395.62497, y: 374.99997}
+      - {x: 395.62497, y: 382.49997}
+      - {x: 391.87497, y: 386.24997}
+      - {x: 389.99997, y: 386.24997}
     physicsShape: []
   spritePackingTag: 
   userData: 
