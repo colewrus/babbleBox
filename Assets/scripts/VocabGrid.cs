@@ -13,6 +13,8 @@ public class VocabGrid : MonoBehaviour {
     public List<GameObject> column3 = new List<GameObject>();
     public List<GameObject> hearts = new List<GameObject>();
 
+    public GameObject gate;
+
     int correct;
 
 	// Use this for initialization
@@ -37,10 +39,11 @@ public class VocabGrid : MonoBehaviour {
     {
         if (rightObject)
         {
-            ListColorFade(column0, "row0");            
-            ListColorFade(column1, "row1");
-            ListColorFade(column2, "row2");
-            ListColorFade(column3, "row3");
+            Debug.Log("hit");
+            ListColorFade(column0, "1c");            
+            ListColorFade(column1, "2c");
+            ListColorFade(column2, "3c");
+            ListColorFade(column3, "4c");
         }else
         {
             if (hearts.Count > 0)
@@ -58,6 +61,10 @@ public class VocabGrid : MonoBehaviour {
         {
             this.gameObject.SetActive(false);
             GM.instance.playerLocked = false;
+            gate.GetComponent<BoxCollider2D>().isTrigger = true;
+            Color tempGate = gate.gameObject.GetComponent<SpriteRenderer>().color;
+            tempGate.a = 0.35f;
+            gate.gameObject.GetComponent<SpriteRenderer>().color = tempGate;
             //fade the gate & set inactive
         }
     }
@@ -73,11 +80,20 @@ public class VocabGrid : MonoBehaviour {
             {
                 Color colortemp = myList[i].gameObject.GetComponent<Image>().color;
                 colortemp.a = 0;
-                myList[i].gameObject.GetComponent<Image>().color = colortemp;
-            }
- 
+                myList[i].gameObject.GetComponent<Image>().color = colortemp;                
+            } 
         } 
-
     }
+
+    /*
+    IEnumerator Fader(GameObject obj)
+    {
+        Color tempColor = obj.GetComponent<Image>().color;
+        tempColor.a -= 2 * Time.deltaTime;
+        obj.GetComponent<Image>().color = tempColor;
+        yield return new WaitForSeconds(0.1f);
+    }
+    */
+
 
 }

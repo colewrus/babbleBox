@@ -152,10 +152,10 @@ public class Interaction : MonoBehaviour {
         if(GM.instance.collectedObjects.Count == 6)
         {           
             vocabWindow.SetActive(true);            
-            denyBubble.SetActive(false);
+            //denyBubble.SetActive(false);
         }else
         {
-            denyBubble.SetActive(false);
+            GM.instance.playerLocked = false;
         }
 
     }
@@ -214,6 +214,7 @@ public class Interaction_editor : Editor
         {
             itr_Type.trigger = (GameObject)EditorGUILayout.ObjectField("Trigger", itr_Type.trigger, typeof(GameObject));
             itr_Type.vocabWindow = (GameObject)EditorGUILayout.ObjectField("Vocab", itr_Type.vocabWindow, typeof(GameObject));
+            itr_Type.denyBubble = (GameObject)EditorGUILayout.ObjectField("Deny Bubble", itr_Type.denyBubble, typeof(GameObject));
         }
     }
 }

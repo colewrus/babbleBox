@@ -63,12 +63,30 @@ public class tapScript : MonoBehaviour {
         {            
             collision.transform.parent.GetComponent<Interaction>().TriggerSingleBubble();
         }
+
         if(collision.transform.name == "dem_Trigger")
         {
-            collision.transform.parent.gameObject.GetComponent<SpriteRenderer>().enabled = true;         
-            Animator anim = collision.transform.parent.gameObject.GetComponent<Animator>();
-            GM.instance.playerLocked = true;
-            anim.Play("dex0");           
+            if (!collision.transform.parent.gameObject.GetComponent<SpriteRenderer>().enabled) {
+                collision.transform.parent.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                Animator anim = collision.transform.parent.gameObject.GetComponent<Animator>();
+                GM.instance.playerLocked = true;
+                anim.Play("dex0");
+            }else
+            {
+                Debug.Log("yeah you hit the trigger");
+                if (GM.instance.collectedObjects.Count == 6)
+                {
+                    
+                    collision.transform.parent.gameObject.GetComponent<Interaction>().vocabWindow.SetActive(true);
+                    //denyBubble.SetActive(false);
+                }
+                else
+                {
+                    GM.instance.playerLocked = false;
+                    //denyBubble.SetActive(false);
+                }
+            }
+
         }
     }
 

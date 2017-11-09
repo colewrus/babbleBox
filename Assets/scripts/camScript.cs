@@ -8,6 +8,7 @@ public class camScript : MonoBehaviour {
 
     public GameObject player;
     public float zValue;
+    public float yOffset;
 	// Use this for initialization
 	void Start () {
 		
@@ -15,6 +16,6 @@ public class camScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, zValue);
+        transform.position = new Vector3(player.transform.position.x, yOffset, zValue);
 	}
 }
